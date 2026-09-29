@@ -1,0 +1,16 @@
+.left-panel-bg {
+    background-color: #163a94;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+/* Ocultar elementos según el estado */
+.show-on-login, .show-on-signup { display: none; }
+body[data-view="login"] .show-on-login { display: block; }
+body[data-view="login"] .show-on-login-flex { display: flex; }
+body[data-view="signup"] .show-on-signup { display: block; }
+body[data-view="signup"] .show-on-signup-flex { display: flex; }
+
+input {
+    outline: none;
+}

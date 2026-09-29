@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance Mentor - Inicia tu carrera freelance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-sans text-slate-800 antialiased bg-white">
+
+    <!-- Header -->
+    <header class="fixed w-full bg-white/90 backdrop-blur-sm z-50 border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex items-center gap-2">
+                    <div class="w-8 h-8 bg-brand-accent rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                        M
+                    </div>
+                    <span class="font-bold text-xl tracking-tight text-slate-900">FreelanceMentor</span>
+                </div>
+
+                <!-- Nav Links -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#herramientas" class="text-sm font-medium text-slate-500 hover:text-slate-900">Herramientas</a>
+                    <a href="#beneficios" class="text-sm font-medium text-slate-500 hover:text-slate-900">Beneficios</a>
+                    <a href="#" class="text-sm font-medium text-slate-500 hover:text-slate-900">Precios</a>
+                </nav>
+
+                <!-- Actions -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="pages/auth.html#login" class="text-sm font-semibold text-brand-accent hover:text-brand-blue">Iniciar Sesión</a>
+                    <a href="pages/auth.html#signup" class="bg-brand-accent hover:bg-brand-blue text-white px-5 py-2.5 rounded-lg text-sm font-semibold transition-colors">
+                        Regístrate Gratis
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden hero-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-3xl">
+                <!-- Badge -->
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-blue-200 bg-blue-50 text-brand-accent text-sm font-medium mb-8">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                    Plataforma gratuita para estudiantes universitarios
+                </div>
+                
+                <!-- Headline -->
+                <h1 class="text-5xl lg:text-7xl font-serif font-bold text-slate-900 leading-tight mb-6">
+                    Transforma tus <br>
+                    proyectos académicos <br>
+                    en <span class="text-brand-accent">servicios <br> profesionales</span>
+                </h1>
+                
+                <!-- Subheadline -->
+                <p class="text-lg text-slate-600 mb-10 max-w-2xl leading-relaxed">
+                    Una ruta guiada paso a paso para que empaquetes tus habilidades, 
+                    calcules precios justos y construyas un portafolio que consiga tu primer cliente real.
+                </p>
+                
+                <!-- CTA Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="pages/auth.html#signup" class="bg-brand-accent hover:bg-brand-blue text-white px-8 py-4 rounded-xl text-base font-semibold flex items-center justify-center gap-2 transition-colors shadow-lg shadow-blue-500/30">
+                        Comenzar gratis <span aria-hidden="true">&rarr;</span>
+                    </a>
+                    <a href="#" class="bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 px-8 py-4 rounded-xl text-base font-semibold flex items-center justify-center transition-colors shadow-sm">
+                        Ver cómo funciona
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof / Tools Section -->
+    <section id="herramientas" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            
+            <div class="flex items-center justify-center gap-4 mb-24">
+                <div class="flex -space-x-3">
+                    <img class="w-10 h-10 rounded-full border-2 border-white object-cover bg-slate-200" src="https://i.pravatar.cc/100?img=1" alt="Student">
+                    <img class="w-10 h-10 rounded-full border-2 border-white object-cover bg-slate-200" src="https://i.pravatar.cc/100?img=2" alt="Student">
+                    <img class="w-10 h-10 rounded-full border-2 border-white object-cover bg-slate-200" src="https://i.pravatar.cc/100?img=3" alt="Student">
+                    <img class="w-10 h-10 rounded-full border-2 border-white object-cover bg-slate-200" src="https://i.pravatar.cc/100?img=4" alt="Student">
+                    <div class="w-10 h-10 rounded-full border-2 border-white bg-slate-100 flex items-center justify-center text-xs font-bold text-slate-600">+</div>
+                </div>
+                <div class="text-left">
+                    <div class="flex text-amber-400 text-sm">★★★★★</div>
+                    <p class="text-sm text-slate-600"><span class="font-bold text-slate-900">+1,200 estudiantes</span> ya están construyendo su carrera freelance</p>
+                </div>
+            </div>
+
+            <!-- Header -->
+            <div class="mb-16">
+                <h3 class="text-emerald-600 font-bold tracking-wider text-sm uppercase mb-4">Las herramientas</h3>
+                <h2 class="text-4xl md:text-5xl font-serif font-bold text-slate-900 mb-6">Tres pilares para tu carrera freelance</h2>
+                <p class="text-lg text-slate-600 max-w-2xl mx-auto">Todo lo que necesitas para pasar de "no sé por dónde empezar" a "tengo mi primer cliente".</p>
+            </div>
+
+            <!-- Cards -->
+            <div class="grid md:grid-cols-3 gap-8 text-left">
+                <!-- Card 1 -->
+                <div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"></path></svg>
+                    </div>
+                    <span class="text-blue-600 font-semibold text-sm mb-2 block">01 - Hoja de ruta</span>
+                    <h4 class="text-xl font-bold text-slate-900 mb-4">Ruta de orientación por etapas</h4>
+                    <p class="text-slate-600 leading-relaxed">Un camino estructurado que te guía desde identificar tus habilidades hasta cerrar tu primer contrato. Cada etapa desbloquea la siguiente, sin abrumarte.</p>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <span class="text-emerald-600 font-semibold text-sm mb-2 block">02 - Precios</span>
+                    <h4 class="text-xl font-bold text-slate-900 mb-4">Calculadora de tarifas</h4>
+                    <p class="text-slate-600 leading-relaxed">Calcula precios justos basados en tu nivel, el tipo de proyecto y el mercado. Nunca más cobres por debajo de lo que realmente vale tu trabajo.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-purple-50 text-purple-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                    </div>
+                    <span class="text-purple-600 font-semibold text-sm mb-2 block">03 - Portafolio</span>
+                    <h4 class="text-xl font-bold text-slate-900 mb-4">Portafolio profesional</h4>
+                    <p class="text-slate-600 leading-relaxed">Registra tus proyectos académicos y personales como casos de estudio profesionales. Genera un enlace público para compartir con potenciales clientes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="py-24 bg-brand-blue text-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <h3 class="text-blue-300 font-bold tracking-wider text-sm uppercase mb-4">El proceso</h3>
+            <h2 class="text-4xl md:text-5xl font-serif font-bold mb-6">Tu ruta en 4 pasos</h2>
+            <p class="text-lg text-blue-200 max-w-2xl mx-auto mb-16">Un camino estructurado para que nunca te sientas perdido.</p>
+
+            <div class="grid md:grid-cols-4 gap-6 relative text-left">
+                <!-- Connecting Line (Desktop) -->
+                <div class="hidden md:block absolute top-12 left-0 w-full h-[1px] bg-blue-700 z-0"></div>
+
+                <!-- Step 1 -->
+                <div class="bg-blue-800/50 backdrop-blur border border-blue-700 p-6 rounded-2xl relative z-10 hover:bg-blue-800 transition-colors">
+                    <div class="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center font-bold text-lg mb-6 shadow-lg shadow-blue-900/20">1</div>
+                    <h4 class="text-lg font-bold mb-3">Identifica tus habilidades</h4>
+                    <p class="text-blue-200 text-sm leading-relaxed">Mapea lo que sabes y conviértelo en servicios concretos que los clientes puedan comprar.</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="bg-blue-800/50 backdrop-blur border border-blue-700 p-6 rounded-2xl relative z-10 hover:bg-blue-800 transition-colors">
+                    <div class="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center font-bold text-lg mb-6 shadow-lg shadow-blue-900/20">2</div>
+                    <h4 class="text-lg font-bold mb-3">Define tu oferta</h4>
+                    <p class="text-blue-200 text-sm leading-relaxed">Empaqueta tus habilidades en servicios claros con entregables, tiempos y precios definidos.</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="bg-blue-800/50 backdrop-blur border border-blue-700 p-6 rounded-2xl relative z-10 hover:bg-blue-800 transition-colors">
+                    <div class="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center font-bold text-lg mb-6 shadow-lg shadow-blue-900/20">3</div>
+                    <h4 class="text-lg font-bold mb-3">Arma tu portafolio</h4>
+                    <p class="text-blue-200 text-sm leading-relaxed">Convierte proyectos académicos en casos de estudio que muestren tu valor profesional.</p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="bg-blue-800/50 backdrop-blur border border-blue-700 p-6 rounded-2xl relative z-10 hover:bg-blue-800 transition-colors">
+                    <div class="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center font-bold text-lg mb-6 shadow-lg shadow-blue-900/20">4</div>
+                    <h4 class="text-lg font-bold mb-3">Consigue tu primer cliente</h4>
+                    <p class="text-blue-200 text-sm leading-relaxed">Con tu perfil listo, usa las plantillas de propuesta para contactar y cerrar proyectos reales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="beneficios" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                
+                <!-- Left: Image with popup -->
+                <div class="relative bg-slate-50 p-6 rounded-3xl border border-slate-100">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Estudiantes trabajando" class="rounded-2xl w-full h-[400px] object-cover shadow-sm">
+                    
+                    <!-- Floating tooltip -->
+                    <div class="absolute bottom-12 left-12 right-12 bg-white/95 backdrop-blur px-6 py-4 rounded-xl shadow-xl border border-slate-100 flex items-center justify-between">
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"></path></svg>
+                            </div>
+                            <div>
+                                <p class="text-sm font-bold text-slate-900">Carlos M. — Diseñador UX</p>
+                                <p class="text-xs text-slate-500">"Conseguí mi primer cliente en 3 semanas"</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-1 text-emerald-500 text-sm font-bold">
+                            ★ 5.0
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Content -->
+                <div>
+                    <h3 class="text-emerald-600 font-bold tracking-wider text-sm uppercase mb-4">Los beneficios</h3>
+                    <h2 class="text-4xl md:text-5xl font-serif font-bold text-slate-900 mb-6">Cobra con criterio, <br>trabaja con confianza</h2>
+                    <p class="text-lg text-slate-600 mb-10">FreelanceMentor te da las herramientas para no aceptar proyectos en condiciones desfavorables. Aprenderás a valorar tu tiempo y a presentarte como un profesional desde el primer día.</p>
+                    
+                    <div class="space-y-8">
+                        <div class="flex gap-4">
+                            <div class="w-12 h-12 bg-purple-50 text-purple-600 rounded-xl flex-shrink-0 flex items-center justify-center mt-1">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900 mb-1">Cobra con criterio desde el inicio</h4>
+                                <p class="text-slate-600 text-sm leading-relaxed">La calculadora te ayuda a entender el valor real de tu trabajo para que no aceptes proyectos subvalorados.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-xl flex-shrink-0 flex items-center justify-center mt-1">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900 mb-1">Presencia profesional inmediata</h4>
+                                <p class="text-slate-600 text-sm leading-relaxed">Un portafolio con enlace público que puedes compartir en LinkedIn, correos y propuestas desde el día uno.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="w-12 h-12 bg-blue-50 text-blue-600 rounded-xl flex-shrink-0 flex items-center justify-center mt-1">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900 mb-1">Sin curva de aprendizaje comercial</h4>
+                                <p class="text-slate-600 text-sm leading-relaxed">La plataforma traduce conceptos de negocios a lenguaje claro para que no necesites formación comercial previa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-24 bg-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-brand-light rounded-3xl p-12 text-center border border-blue-100">
+                <h2 class="text-4xl md:text-5xl font-serif font-bold text-brand-dark mb-6">Tu primer cliente está a <br>unos pasos de distancia</h2>
+                <p class="text-lg text-slate-600 mb-10 max-w-2xl mx-auto">Únete a más de 1,200 estudiantes que ya construyen su carrera freelance con FreelanceMentor. Es completamente gratis para empezar.</p>
+                
+                <a href="pages/auth.html#signup" class="inline-flex items-center justify-center gap-2 bg-brand-accent hover:bg-brand-blue text-white px-8 py-4 rounded-xl text-base font-semibold transition-colors shadow-lg shadow-blue-500/20 mb-6">
+                    Crear mi cuenta gratis <span aria-hidden="true">&rarr;</span>
+                </a>
+                
+                <p class="text-sm text-slate-500">Sin tarjeta de crédito · Plan gratuito permanente · Cancela cuando quieras</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-50 py-12 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex items-center gap-2">
+                <div class="w-6 h-6 bg-brand-accent rounded flex items-center justify-center text-white font-bold text-xs">
+                    M
+                </div>
+                <span class="font-bold text-lg tracking-tight text-slate-900">FreelanceMentor</span>
+            </div>
+            
+            <p class="text-sm text-slate-500">© 2026 FreelanceMentor. Diseñado para estudiantes con ambición.</p>
+            
+            <div class="flex items-center gap-6">
+                <a href="#" class="text-sm text-slate-500 hover:text-slate-900">Privacidad</a>
+                <a href="#" class="text-sm text-slate-500 hover:text-slate-900">Términos</a>
+                <a href="#" class="text-sm text-slate-500 hover:text-slate-900">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

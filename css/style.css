@@ -1,0 +1,4 @@
+.hero-bg {
+    background-image: linear-gradient(to right, #f8fafc 1px, transparent 1px), linear-gradient(to bottom, #f8fafc 1px, transparent 1px);
+    background-size: 50px 50px;
+}
